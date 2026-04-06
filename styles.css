@@ -7,6 +7,41 @@
     max-width: 50px;
 }
 
+.large-image {
+    max-width: 250px;
+}
+
 .profile-image {
     max-width: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    text-align: center;
+}
+
+button {
+    transition: animation;
+}
+
+
+button:hover {
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
